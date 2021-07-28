@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface Props {
-  fallback?: React.ReactElement;
+  fallback: NonNullable<React.ReactNode> | null;
 }
 
 interface State {

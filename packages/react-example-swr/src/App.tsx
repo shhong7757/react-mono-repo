@@ -6,20 +6,16 @@ import { SWRConfig } from 'swr';
 
 import ErrorBoundary from './ErrorBoundary';
 
-import useRandomDog from './hooks/useRandomDog';
+import RandomDogImage from './RandomDogImage';
 
 function App() {
-  const { data } = useRandomDog();
-
   return (
     <SWRConfig value={{ suspense: true }}>
-      <ErrorBoundary fallback={<div>failed to load</div>}>
-        <Suspense fallback={<div>loading...</div>}>
-          <div>
-            <img alt="" src={data} />
-          </div>
-        </Suspense>
-      </ErrorBoundary>
+      <Suspense fallback={<div>loading...</div>}>
+        <ErrorBoundary fallback={<div>failed to load</div>}>
+          <RandomDogImage />
+        </ErrorBoundary>
+      </Suspense>
       <Button>
         <p>Hello! world</p>
       </Button>
