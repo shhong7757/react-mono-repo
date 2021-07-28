@@ -1,0 +1,17 @@
+{
+  "name": "@react-mono-repo/eslint-config-typescript",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "shhong7757 <ghdtkdgur123@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint": "^7.31.0"
+  }
+}

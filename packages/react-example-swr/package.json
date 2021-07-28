@@ -1,0 +1,23 @@
+{
+  "name": "@react-mono-repo/react-example-swr",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "shhong7757 <ghdtkdgur123@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "lint": "eslint --ignore-path .gitignore .",
+    "start": "webpack serve --open --config webpack.dev.js",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@react-mono-repo/eslint-config": "0.0.0",
+    "@react-mono-repo/eslint-config-react": "0.0.0",
+    "@react-mono-repo/eslint-config-typescript": "0.0.0",
+    "@react-mono-repo/prettier-config": "0.0.0",
+    "@react-mono-repo/react-common-component": "0.0.0",
+    "react-hot-loader": "^4.13.0",
+    "swr": "^0.5.6"
+  }
+}

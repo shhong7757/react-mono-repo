@@ -1,0 +1,20 @@
+{
+  "name": "@react-mono-repo/eslint-config-react",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "shhong7757 <ghdtkdgur123@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint": "^7.31.0"
+  }
+}
