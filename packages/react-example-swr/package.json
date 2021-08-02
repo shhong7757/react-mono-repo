@@ -19,5 +19,11 @@
     "@react-mono-repo/react-common-component": "0.0.0",
     "react-hot-loader": "^4.13.0",
     "swr": "^0.5.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9",
+    "postcss": "^8.3.6",
+    "postcss-loader": "^6.1.1",
+    "tailwindcss": "^2.2.7"
   }
 }
